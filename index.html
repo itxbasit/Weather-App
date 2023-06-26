@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-div">
+        <div class="weather-frame" style="width: 18rem">
+            <div class="search">
+                <input placeholder="Search" type="text" name="" id="textField">
+                <i onclick="searchWeather()" class="fa fa-search"></i>
+            </div>
+            <div class="content-1">
+                <h2 class="city mr-3"></h2>
+                <h2 class="country mr-3"></h2>
+                <p class="date"></p>
+            </div>
+            <div class="content-2">
+                <img id="headerImg" src="" alt="">
+                <div class="temp">
+                    <h1 id="centigrade"></h1>
+                    <p id="weather1"></p>
+                </div>
+            </div>
+            <div class="content-3">
+                <div class="feelTemp">
+                    <img src="./Images/hot.png" alt="">
+                    <p id="tempPara"></p>
+                </div>
+                <div class="winds">
+                    <img src="./Images/windy.png" alt="">
+                    <p id="windsPara"></p>
+                </div>
+                <div class="humidity">
+                    <img src="./Images/humidity.png" alt="">
+                    <p id="humidityPara"></p>
+                </div>
+                <div class="weather">
+                    <img src="" alt="">
+                    <p id="weatherPara"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
